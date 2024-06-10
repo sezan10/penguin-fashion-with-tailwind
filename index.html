@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <header class="bg-[#FFFBF0] px-32">
+    <header class="bg-[#FFFBF0] py-20 px-4 md:px-32">
       <!-- nav section -->
       <nav></nav>
       <!-- banner section -->
-      <div class="flex justify-between items-center">
-        <div>
-          <h1 class="text-7xl uppercase">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="space-y-2">
+          <h1 class="text-7xl uppercase bebas-neue-regular">
             <span class="text-[#FABE4C]">Be the Penguins</span> <br />
             of Winter
           </h1>
@@ -47,7 +58,11 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="max-w-7xl mx-auto">
+      <section class="py-12">
+        <h3 class="text-5xl bebas-neue-regular">Woman Jackets</h3>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
